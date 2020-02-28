@@ -1,0 +1,263 @@
+/*========================
+         GLOBAL 
+=========================*/
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: #385898;
+}
+a:hover {
+    text-decoration: underline;
+    color: #385898;
+}
+
+h1,h2,h4,h5,h6 .fa {
+    font-family:Segoe UI;
+}
+
+
+/*========================
+        FONTS
+=========================*/
+
+@font-face{
+    font-family:Segoe UI;
+    src:url(../font/Segoe UI.woff);
+}
+
+
+
+main {
+    line-height: 1.34;
+    background: linear-gradient(to bottom, #ffffff -25%, #d9deec 100%);
+    height: 100vh;
+}
+
+header{
+      height:82px;
+      width: 100%;
+      background: linear-gradient(to bottom, #4b67a0 0%, #3b5998 100%);
+}
+
+.logo{
+    position: relative;
+}   
+
+.logo img {
+    float:left;
+    margin: 9px;
+    position: absolute;
+    right: 990px;
+}   
+
+form {
+    float: right;
+    position: absolute;
+    left: 58%;
+}
+
+.form-height {
+    width: 163px;
+    padding: 12px 5px;
+    float: left;
+    color: #fff;
+}
+
+form label {
+    font-size: 13px;
+    font-family:Segoe UI;
+    font-weight: normal;
+    padding-left: 1px;
+}
+form input {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px 4px;
+    width: 145px;
+}
+
+.submit {
+    width: 49px;
+    height: 25px;
+    margin: 29px;
+    margin-left: -1px;
+    padding-top: 3px;
+    position: absolute;
+    top: 2px;
+    left: 351px;
+    padding-left: 3px;
+    background-color: #4267b2;
+    color: #fff;
+    border-color: #29487d;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.submit:hover {
+    background-color: #365899;
+}
+
+form a {
+    position: absolute;
+    top: 61px;
+    right: 49px;
+    color: #9cb4d8;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+form a:hover{
+    text-decoration: underline;
+}
+
+form a:focus{
+    outline: none !important;
+}
+
+
+
+/*===========================
+          LEFT SIDE 
+============================*/   
+
+.leftside{
+    width: 42%;
+    margin-left: 177px;
+    display: inline-block;
+}     
+.leftside h2{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+/*======================
+      RIGHT SIDE
+=======================*/
+
+.rightside{
+    float: right;
+    width: 38%;
+    margin-right: 54px;
+} 
+
+.rightside h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 700;
+    padding: 14px 0 11px 0;
+}
+.rightside h5 {
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    padding: 0 0 17px 0;
+}     
+.form-container {}
+.height-1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+.height-2 {
+    display: inline-block;
+}
+.height-3 {
+    display: inline-block;
+    margin: 12px 0;
+}
+.height-4 {
+    margin-bottom: 10px;
+}
+
+.first {
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 0;
+    border: 1px solid #ccd0d5;
+    width: 180px;
+}
+.last-two {
+    width: 396px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 0;
+    border: 1px solid #ccd0d5;
+}
+.form-container h5 {
+    font-size: 17px;
+    color: #90949c;
+    font-weight: bold;
+    padding: 6px 0 10px 0;
+}
+.select-style {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+.helpbar {
+    color: #606770;
+    margin-left: 2px;
+}
+h6{
+    display: inline-block;
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    font-family: Segoe UI;
+}
+p {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin: 1em 0;
+    font-family: Segoe UI;
+    line-height: 16px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+button {
+    font-size: 19px;
+    background: linear-gradient(#67ae55, #578843);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid #00000052;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    padding: 9px 60px;
+    min-width: 194px;
+    text-align: center;
+}
+
+button:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.btn-padding {
+    margin: 10px 0;
+}
+h4 {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 22px;
+}
