@@ -83,6 +83,11 @@ form input {
     width: 145px;
 }
 
+
+form input:focus {
+    outline: 0;
+}
+
 .submit {
     width: 49px;
     height: 25px;
